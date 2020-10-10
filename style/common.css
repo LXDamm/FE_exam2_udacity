@@ -23,16 +23,3 @@ html {
     font-size: 16px;
     line-height: 24px;
 }
-
-.flex {
-    display: flex;
-    flex-direction: column;
-}
-
-.flex-item {
-    display: inline-block;
-}
-
-.flex-list {
-    display: flex;
-}

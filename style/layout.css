@@ -1,0 +1,17 @@
+.flex {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-item {
+    display: inline-block;
+}
+
+.flex-list {
+    display: flex;
+}
+
+.header__nav {
+    position: sticky;
+    top: 0;
+}

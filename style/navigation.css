@@ -1,3 +1,13 @@
+.header {
+    max-width: 73.75rem;
+    height: 96px;
+    background-color: #fff;
+}
+
 .nav-full {
     display: none;
+}
+
+.nav-list li {
+    display: inline-block;
 }

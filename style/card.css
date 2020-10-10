@@ -1,3 +1,12 @@
+.cards {
+    text-align: center;
+}
+
+.cards-list {
+    max-width: 100rem;
+    justify-content: center;
+}
+
 .card {
     width: 18.75rem;
     height: 18.75rem;
