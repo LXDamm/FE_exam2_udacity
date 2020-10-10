@@ -1,0 +1,49 @@
+@media (min-width: 480px) {
+    .hero-home {
+        padding: 40px;
+        background-image: url('/image/hero_banner.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .learn-button {
+        width: 220px;
+    }
+
+    .cards-list {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+}
+
+@media (min-width: 760px) {
+    .hero-home {
+        text-align: left;
+    }
+
+    .hero-home-text {
+        width: 500px;
+    }
+
+    .partner {
+        display: block;
+    }
+
+    .comparision-table td:not(:first-child) {
+        min-width: 180px;
+    }
+}
+
+@media (min-width: 980px) {
+    .nav-full {
+        display: block;
+    }
+
+    .hero-container {
+        flex-direction: row;
+    }
+
+    .comparision-table td:not(:first-child) {
+        min-width: 100px;
+    }
+}

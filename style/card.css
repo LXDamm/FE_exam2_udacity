@@ -1,0 +1,42 @@
+.card {
+    width: 18.75rem;
+    height: 18.75rem;
+    margin: 1rem;
+    text-align: center;
+    color: var(--secondary-color);
+    border-radius: 8px;
+    box-shadow: 0 0 4px 0 rgba(17,22,26,.16),0 2px 4px 0 rgba(17,22,26,.08),0 4px 8px 0 rgba(17,22,26,.08);
+}
+
+.border-top-blue {
+    border-top: 3px solid #02b3e4;
+}
+
+.border-top-orange {
+    border-top: 3px solid #ffae0c;
+}
+
+.border-top-green {
+    border-top: 3px solid #15c26b;
+}
+
+.border-top-purple {
+    border-top: 3px solid #a951ed;
+}
+
+.card img {
+    width: 34px;
+    height: 34px;
+    margin-top: 32px;
+    margin-bottom: 16px;
+}
+
+.card-title {
+    color: var(--blueish-color);
+    margin-bottom: 12px;
+}
+
+.card-subtitle {
+    font-weight: 400;
+    padding: 0 20px 20px 20px;
+}

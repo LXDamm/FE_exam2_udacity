@@ -1,0 +1,57 @@
+.hero-container {
+    max-width: 73.75rem;
+    margin: 0 auto;
+    padding: 40px 0;
+    color: var(--bone-color);
+}
+
+.hero-home {
+    height: 200px;
+    text-align: center;
+    background: black;
+}
+
+.learn-button {
+    width: 80%;
+    background-color: var(--primary-color);
+}
+
+.partner {
+    display: none;
+}
+
+.partner-list li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.partner-list img {
+    height: 44px;
+    width: auto;
+    vertical-align: middle;
+}
+
+.comparision-title {
+    text-align: center;
+    color: var(--bluish-color);
+}
+
+.comparision-table td:not(:first-child) {
+    min-width: 80px;
+}
+
+.comparision-table td:first-child {
+    min-width: 100%;
+    color: var(--bluish-color);
+    background-color: var(--light-color);
+}
+
+.comparision-table td:nth-child(2), .comparision-table th:nth-child(2) {
+    text-align: center;
+    background-color: var(--primary-color);
+}
+
+.comparision-table td:last-child, .comparision-table th:last-child {
+    text-align: center;
+    background-color: var(--secondary-color);
+}

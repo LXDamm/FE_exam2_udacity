@@ -1,0 +1,38 @@
+:root {
+    --primary-color: #017a9b;
+    --secondary-color: #525c65;
+    --light-color: #f5fcfe;
+    --grey-color: #6d7780;
+    --bone-color: #f7f7f8;
+    --bluish-color: #2e3d49;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    min-width: 200px;
+}
+
+.body {
+    color: var(--secondary-color);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-item {
+    display: inline-block;
+}
+
+.flex-list {
+    display: flex;
+}
