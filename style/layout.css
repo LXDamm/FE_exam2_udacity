@@ -25,6 +25,10 @@
     padding: 4rem 0;
 }
 
+.hero-section {
+    padding-top: 0;
+}
+
 .stories-section {
     padding-top: 4rem;
     background-color: var(--stories-color);

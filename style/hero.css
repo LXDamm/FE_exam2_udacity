@@ -2,20 +2,24 @@
     display: flex;
     flex-direction: column;
     margin: 0 auto;
-    padding: 40px 0;
     color: var(--bone-color);
 }
 
 .hero-home {
+    padding: 3rem 1rem;
     text-align: center;
     background: black;
 }
 
 .learn-button {
-    width: 80%;
+    width: 100%;
     line-height: 80px;
     padding: 0.6rem 4rem;
     background-color: var(--primary-color);
+}
+
+.partner-text {
+    display: none;
 }
 
 .partner {
@@ -49,6 +53,7 @@
 }
 
 .comparision-table td:not(:first-child) {
+    width: 80px;
     min-width: 80px;
 }
 
