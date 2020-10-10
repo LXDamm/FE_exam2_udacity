@@ -1,5 +1,6 @@
 .header {
     display: flex;
+    padding: 1.2rem 0;
     justify-content: space-between;
     background-color: #fff;
 }
@@ -25,8 +26,18 @@
     display: inline-block;
 }
 
-.nav-dropdown a::after {
+.nav-dropdown span::after {
+    padding-left: 0.5rem;
     content: url('/image/pointer_down.svg');
+}
+
+.nav-list a {
+    padding: 2rem;
+    text-decoration-line: none;
+}
+
+#button-signup {
+    padding: 0.5rem 1rem;
 }
 
 .flex-dummy {

@@ -1,11 +1,28 @@
+.footer-logo {
+    width: 30px;
+    height: 30px;
+    margin-bottom: 2rem;
+}
+
 .footer-nav {
     display: flex;
     flex-direction: column;
+    text-align: left;
 }
 
 .footer-nav li ul {
     display: none;
     list-style-type: none;
+}
+
+
+.footer-nav-link a {
+    margin-top: 0;
+    margin-bottom: 4px;
+    font-size: .8125rem;
+    line-height: 1.25rem;
+    text-decoration-line: none;
+    color: var(--fineprint-color);
 }
 
 .fineprint {

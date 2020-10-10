@@ -1,6 +1,11 @@
+.stats h2 {
+    padding-bottom: 4rem;
+}
+
 .stats-list {
     display: flex;
     flex-direction: column;
+    justify-content: space-evenly;
 }
 
 .stat-card {
@@ -21,10 +26,12 @@
 }
 
 .story-card {
+    position: relative;
     max-width: 100%;
-    height: calc(100% - 64px);
+    height: 440px;
     text-align: center;
     margin-top: 64px;
+    background-color: var(--light-color);
     box-shadow: 0 0 4px 0 rgba(17,22,26,.16),0 2px 4px 0 rgba(17,22,26,.08),0 4px 8px 0 rgba(17,22,26,.08);
 }
 
@@ -40,13 +47,26 @@
 }
 
 .story-card h3 {
+	font-size: 1.5rem;
+	line-height: 36px;
+	font-weight: 300;
+}
 
+.story-card-text {
+    padding: 0 1rem;
+    font-style: italic;
+}
+
+.story-card-footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 2rem 0;
+    background-color: var(--beige-color);
+    text-align: center;
 }
 
 .story-card h4 {
-    text-transform: capitalize;
-}
-
-.story-card p {
-
+    text-transform: uppercase;
 }

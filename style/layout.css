@@ -9,6 +9,11 @@
 
 .flex-list {
     display: flex;
+    flex-direction: row;
+}
+
+.mobile-nav {
+    display: none;
 }
 
 .header__nav {
@@ -17,7 +22,17 @@
 }
 
 .page-section {
-    width: 100%;
+    padding: 4rem 0;
+}
+
+.stories-section {
+    padding-top: 4rem;
+    background-color: var(--stories-color);
+}
+
+.footer-section {
+    padding-top: 4rem;
+    background-color: var(--footer-color);
 }
 
 .page-container {

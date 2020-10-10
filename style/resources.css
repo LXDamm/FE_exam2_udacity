@@ -1,3 +1,15 @@
 .resources-banner {
+    padding: 6rem;
+    color: white;
     background-color: var(--blueish-color);
+}
+
+.resources-banner h2 {
+    padding: 1rem;
+    font-size: 2rem;
+}
+
+.resources-banner p {
+    margin-bottom: 1rem;
+    padding: 1rem;
 }

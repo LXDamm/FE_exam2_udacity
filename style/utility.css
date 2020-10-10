@@ -1,3 +1,7 @@
 .no-list {
     list-style-type: none;
 }
+
+.align-left {
+    text-align: left;
+}

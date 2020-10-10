@@ -57,29 +57,30 @@
                     </div>
                     <nav class="nav-full">
                         <ul class="nav-list no-list">
-                            <li class="nav-dropdown"><a href="#">Programs</a></li>
-                            <li class="nav-dropdown"><a href="#">Careers</a></li>
-                            <li class="nav-dropdown"><a href="#">For Enterprise</a></li>
+                            <li><a class="nav-dropdown" href="#"><span>Programs</span></a></li>
+                            <li><a class="nav-dropdown" href="#"><span>Careers</span></a></li>
+                            <li><a class="nav-dropdown" href="#"><span>For Enterprise</span></a></li>
                             <li>|</li>
                             <li><a href="#">Sign In</a></li>
-                            <li><a href="#">Get Started</a></li>
+                            <li><a class="button-primary" id="button-signup" href="#">Get Started</a></li>
                         </ul>
                     </nav>
                     <div class="flex-dummy"></div>
                 </header>
             </div>
         </section>
-        <section class="hero-section">
+        <section class="hero-section page-section">
             <div class="page-container">
-                <div class="hero-container flex">
-                    <div class="hero-home flex-item">
+                <div class="hero-container">
+                    <div class="hero-home">
                         <h2>Bootcamp Quality at 1/10 of the Cost</h2>
                         <p class="hero-home-text">Udacity is the world’s fastest, most efficient way to master the
                             skills
                             tech
                             companies want. 100%
                             online, part-time & self-paced.</p>
-                        <a class="learn-button" href="#">Learn more</a>
+                        <a class="learn-button button-primary" href="#">Learn more</a>
+                        <p class="hero-home-text">Industry leading programs built and recognized by top companies worldwide</p>
                         <div class="partner">
                             <p></p>
                             <ul class="no-list partner-list">
@@ -91,7 +92,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="hero-comparision flex-item">
+                    <div class="hero-comparision">
                         <h2 class="comparision-title">Only at Udacity: <strong>Job-Ready Skills</strong></h2>
                         <table class="comparision-table">
                             <thead>
@@ -138,26 +139,15 @@
                 </div>
             </div>
         </section>
-        <section class="explore-section">
+        <section class="explore-section page-section">
             <div class="page-container">
-                <div class="carousel">
-                    <h2>Explore our schools to find your perfect program</h2>
-                    <div class="carousel-container">
-                        <ul>
-                            <li></li>
-                        </ul>
-                        <ul>
-                            <li>
-                                <div><img src="" alt="">
-                                    <h4></h4>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
+                <div class="dummy-carousel">
+                    <p>Carousel</p>
+                    <!-- We didn't need to do the carousel right? -->
                 </div>
             </div>
         </section>
-        <section class="cards-section">
+        <section class="cards-section page-section">
             <div class="page-container">
                 <div class="cards-title-container">
                     <h2>Don't waste your valuable time or money</h2>
@@ -203,21 +193,21 @@
                 </ul>
             </div>
         </section>
-        <section class="resources-section">
+        <section class="resources-section page-section">
             <div class="page-container">
                 <div class="resources-banner">
                     <h2>Make the most of your online learning experience</h2>
                     <p>Our Online Learning Resource Center has tips, tricks and inspiring stories to help you learn
                         while
                         staying home. </p>
-                    <a href="#">Explore resources</a>
+                    <a class="button-primary" href="#">Explore resources</a>
                 </div>
             </div>
         </section>
-        <section class="stories-section">
+        <section class="stories-section page-section">
             <div class="page-container">
                 <section class="stats">
-                    <h3>Stregth in number</h3>
+                    <h2>Stregth in number</h2>
                     <ul class="stats-list no-list">
                         <li>
                             <div class="stat-card">
@@ -248,10 +238,10 @@
                             <div class="story-card border-top-green">
                                 <img src="/image/Jesse.png" alt="">
                                 <h3>Jesse</h3>
-                                <p>"The curriculum was directly targeted toward applied techniques with high profile
+                                <p class="story-card-text">"The curriculum was directly targeted toward applied techniques with high profile
                                     projects – real datasets with industry partners. It helped me achieve my career
                                     transition goal."</p>
-                                <div>
+                                <div class="story-card-footer">
                                     <h4>Now at</h4>
                                     <p>Raytheon | Data Scientist</p>
                                 </div>
@@ -261,10 +251,10 @@
                             <div class="story-card border-top-purple">
                                 <img src="/image/Sundar.png" alt="">
                                 <h3>Sundar</h3>
-                                <p>"The curriculum was aligned with what I wanted to study. The assignments are specific
+                                <p class="story-card-text">"The curriculum was aligned with what I wanted to study. The assignments are specific
                                     to the industry I’m in. I was able to develop new language translation tools for my
                                     company."</p>
-                                <div>
+                                <div class="story-card-footer">
                                     <h4>Now at</h4>
                                     <p>Comcast | Lead Data Scientist</p>
                                 </div>
@@ -274,9 +264,9 @@
                             <div class="story-card border-top-blue">
                                 <img src="/image/David.png" alt="">
                                 <h3>David</h3>
-                                <p>"One of the things that attracted me to Udacity was a curriculum developed by people
+                                <p class="story-card-text">"One of the things that attracted me to Udacity was a curriculum developed by people
                                     that worked for some of the biggest and most successful tech companies.”</p>
-                                <div>
+                                <div class="story-card-footer">
                                     <h4>Now at</h4>
                                     <p>Panera Bread | Data Administrator</p>
                                 </div>
@@ -287,8 +277,8 @@
             </div>
         </section>
         <footer class="footer-section">
-            <div class="page-container">
-                <img src="/image/short_logo.svg" alt="" class="footer-logo">
+            <div class="page-container align-left">
+                <img class="footer-logo" src="/image/logo_short.svg" alt="" class="footer-logo">
                 <nav class="footer-primary">
                     <ul class="footer-nav no-list">
                         <li>
@@ -573,7 +563,15 @@
                         </li>
                     </ul>
                 </nav>
-                <section class="footer-secondary"></section>
+                <section class="footer-secondary">
+                    <div>
+                        <ul class="fineprint flex-list">
+                            <li><p> © 2011–2020 Udacity, Inc. </p></li>
+                            <li><a href="#">Legal &amp; Privacy</a></li>
+                            <li><a href="#">Site Map</a></li>
+                        </ul>
+                    </div>
+                </section>
                 <section class="footer-auxiliary">
                     <div class="fineprint">
                         <p class="copyright">"Nanodegree" is a registered trademark of Udacity. © 2011–2020 Udacity,
