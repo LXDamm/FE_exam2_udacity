@@ -1,0 +1,16 @@
+.footer-nav {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-nav li ul {
+    display: none;
+    list-style-type: none;
+}
+
+.fineprint {
+    text-align: center;
+    font-size: .5625rem;
+    line-height: 12px;
+    color: var(--fineprint-color);
+}

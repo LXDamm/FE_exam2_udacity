@@ -17,8 +17,24 @@
 }
 
 @media (min-width: 760px) {
+    .nav-toggle {
+        display: none;
+    }
+
+    .header-logo-short {
+        display: none;
+    }
+
+    .header-logo-full {
+        display: block;
+    }
+
     .nav-full {
         display: block;
+    }
+
+    .flex-dummy {
+        display: none;
     }
     
     .hero-home {
@@ -35,6 +51,22 @@
 
     .comparision-table td:not(:first-child) {
         min-width: 180px;
+    }
+
+    .stats-list {
+        flex-direction: row;
+    }
+
+    .stories-cards-list {
+        flex-direction: row;
+    }
+
+    .footer-nav {
+        flex-direction: row;
+    }
+
+    .footer-nav li ul {
+        display: block;
     }
 }
 

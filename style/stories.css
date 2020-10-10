@@ -1,0 +1,52 @@
+.stats-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.stat-card {
+    width: 240px;
+}
+
+.stories-cards-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 100rem;
+}
+
+.stories-cards-list li {
+    max-width: 380px;
+    height: 440px;
+    padding: 20px;
+}
+
+.story-card {
+    max-width: 100%;
+    height: calc(100% - 64px);
+    text-align: center;
+    margin-top: 64px;
+    box-shadow: 0 0 4px 0 rgba(17,22,26,.16),0 2px 4px 0 rgba(17,22,26,.08),0 4px 8px 0 rgba(17,22,26,.08);
+}
+
+.story-card-img-container {
+    width: 100%;
+    text-align: center;
+}
+
+.story-card img {
+    width: 64px;
+    height: 64px;
+    transform: translateY(-32px);
+}
+
+.story-card h3 {
+
+}
+
+.story-card h4 {
+    text-transform: capitalize;
+}
+
+.story-card p {
+
+}

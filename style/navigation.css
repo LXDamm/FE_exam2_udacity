@@ -1,7 +1,20 @@
 .header {
-    max-width: 73.75rem;
-    height: 96px;
+    display: flex;
+    justify-content: space-between;
     background-color: #fff;
+}
+
+.nav-toggle-button {
+    margin: 1rem;
+}
+
+.burger {
+    width: 32px;
+    height: 32px;
+}
+
+.header-logo-full {
+    display: none;
 }
 
 .nav-full {
@@ -10,4 +23,12 @@
 
 .nav-list li {
     display: inline-block;
+}
+
+.nav-dropdown a::after {
+    content: url('/image/pointer_down.svg');
+}
+
+.flex-dummy {
+    width: 64px;
 }

@@ -1,8 +1,9 @@
-.cards {
+.cards-container {
     text-align: center;
 }
 
 .cards-list {
+    display: flex;
     max-width: 100rem;
     justify-content: center;
 }

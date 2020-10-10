@@ -33,7 +33,7 @@
 
 .comparision-title {
     text-align: center;
-    color: var(--bluish-color);
+    color: var(--blueish-color);
 }
 
 .comparision-table td:not(:first-child) {
@@ -42,7 +42,8 @@
 
 .comparision-table td:first-child {
     min-width: 100%;
-    color: var(--bluish-color);
+    text-align: left;
+    color: var(--blueish-color);
     background-color: var(--light-color);
 }
 
