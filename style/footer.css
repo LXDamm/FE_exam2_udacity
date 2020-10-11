@@ -1,13 +1,44 @@
+.footer-container {
+    margin: 0 1rem;
+    padding: 1rem 0 4rem 0;
+}
+
 .footer-logo {
     width: 30px;
     height: 30px;
     margin-bottom: 2rem;
 }
 
+.footer-primary, .footer-secondary {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.footer-primary {
+    margin: 1rem 0 4rem 0;
+    background-color: #fff;
+    box-shadow: 12px 16px 20px 0 rgba(46,61,73,.2);
+}
+
 .footer-nav {
     display: flex;
     flex-direction: column;
     text-align: left;
+    box-shadow: ;
+}
+
+.nav-main-link {
+    padding: 1rem;
+}
+
+.nav-main-link p {
+    text-transform: uppercase;
+}
+
+.nav-main-link p::after {
+    content: '+';
+    text-align: right;
+    right: 0;
 }
 
 .footer-nav li ul {
@@ -23,6 +54,10 @@
     line-height: 1.25rem;
     text-decoration-line: none;
     color: var(--fineprint-color);
+}
+
+.fineprint {
+    text-align: center;
 }
 
 .fineprint {
