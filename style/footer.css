@@ -1,6 +1,5 @@
 .footer-container {
-    margin: 0 1rem;
-    padding: 1rem 0 4rem 0;
+    padding: 1rem 1rem 4rem 1rem;
 }
 
 .footer-logo {
@@ -28,17 +27,20 @@
 }
 
 .nav-main-link {
+    display: flex;
     padding: 1rem;
+    text-decoration-line: none;
 }
 
 .nav-main-link p {
+    width: 100%;
     text-transform: uppercase;
 }
 
-.nav-main-link p::after {
+.nav-main-link::after {
     content: '+';
-    text-align: right;
-    right: 0;
+    align-self: end;
+    padding-right: 0.6rem;
 }
 
 .footer-nav li ul {

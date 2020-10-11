@@ -63,12 +63,19 @@
     }
 
     .nav-main-link {
-        padding: 1rem 0;
+        flex-direction: column;
+        padding: 0;
+        pointer-events: none;
     }
 
-    .nav-main-link p::after {
-        display: none;
+    .nav-main-link::after {
         content: none;
+        display: none;
+    }
+
+    .footer-primary {
+        background-color: inherit;
+        box-shadow: none;
     }
 
     .footer-nav li ul {
